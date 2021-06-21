@@ -58,7 +58,7 @@ public class RetrofitManager {
         OkHttpClient.Builder okhttpBuilder = new OkHttpClient.Builder();
         okhttpBuilder.addInterceptor(chain -> {
 
-            String ClientSecret = "388D45FA-B36B-4988-BA59-B187D329C207";
+            String ClientSecret = "this_is_a_secret";
             String Credentials = clientId + ":" + ClientSecret;
 
             // Add "Basic " to beginning of the header and encode the credentials to base64.
